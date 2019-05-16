@@ -4,7 +4,8 @@
   "description": "Guided Project for Web API-III Module",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon index.js"
+    "server": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "dependencies": {
     "dotenv": "^8.0.0",
+    "dotv": "^0.0.1",
     "express": "^4.16.4",
     "helmet": "^3.18.0",
     "knex": "^0.16.5",
